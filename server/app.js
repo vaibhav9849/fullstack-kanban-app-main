@@ -5,7 +5,7 @@ const logger = require('morgan');
 const cors = require('cors')
 
 const app = express();
-const allowedOrigins=['https://fullstack-kanban-app-main.onrender.com'];
+const allowedOrigins=['https://fullstack-kanban-app-main-1.onrender.com'];
 app.use(cors({
   origin: function (origin, callback) {
     // Allow requests with no origin (like mobile apps, curl, or Postman)
